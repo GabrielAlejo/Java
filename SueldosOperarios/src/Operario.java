@@ -7,13 +7,13 @@ public class Operario {
 	public Operario() {
 		sScanner = new Scanner(System.in);
 		sueldos = new int[5];
-		
+
 		for (int i = 0; i < 5; i++) {
 			System.out.print("Ingrese valor del sueldo: ");
 			sueldos[i] = sScanner.nextInt();
 		}
 	}
-	
+
 	public void Imprimir() {
 		for (int i = 0; i < 5; i++) {
 			System.out.println(sueldos[i]);
